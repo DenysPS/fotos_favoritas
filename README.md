@@ -1,16 +1,14 @@
 # fotos_favoritas
 
-A new Flutter project.
+Projeto flutter com integração de código nativo Android(Kotlin)
 
-## Getting Started
+## Sobre
 
-This project is a starting point for a Flutter application.
+A aplicativo consiste em obter as imagens da galeria utilizando código nativo do Android(Kotlin), exibi-las em uma grid e possibilitar a seleção das fotos favoritas. As lista de fotos favoritas pode ser salva localmente para futuras edições.
 
-A few resources to get you started if this is your first Flutter project:
+Foram utilizados o seguintes packages [GetX](https://pub.dev/packages/get) para gerenciamento de estado e [SharedPreferences](https://pub.dev/packages/shared_preferences) para salvar a lista de fotos favoritas. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Implementações futuras
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- <input type="checkbox" disabled /> Desenvolver a integração com IOS (swift)
+- <input type="checkbox" disabled /> Adicionar recurso de compartilhar fotos selecionadas

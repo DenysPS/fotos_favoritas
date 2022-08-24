@@ -7,7 +7,6 @@ void main() {
   runApp(
     GetMaterialApp(
       title: 'Fotos Favoritas',
-      supportedLocales: const [Locale('pt', 'BR')],
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
       initialRoute: AppPages.homePage,

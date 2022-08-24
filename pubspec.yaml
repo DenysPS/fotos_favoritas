@@ -30,6 +30,7 @@ dependencies:
   flutter:
     sdk: flutter
   get:
+  shared_preferences:
 
 dev_dependencies:
   flutter_test:

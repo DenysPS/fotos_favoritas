@@ -31,7 +31,7 @@ class MainActivity : FlutterFragmentActivity() {
                 when (call.method) {
                     "getPhotos" -> {
                         methodResult = result
-                        queryLimit = 100
+                        queryLimit = call.arguments()!!
                         getPhotos()
                     }
                     "fetchImage" -> fetchImage(call.arguments()!!, result)

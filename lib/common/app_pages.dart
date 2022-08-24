@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 
+import '../home/home_bindings.dart';
 import '../home/home_page.dart';
 
 class AppPages {
@@ -10,13 +11,7 @@ class AppPages {
     GetPage(
       name: homePage,
       page: () => const HomePage(),
-      //binding: HomeBindings(),
+      binding: HomeBindings(),
     ),
-
-    // GetPage(
-    //   name: photoPage,
-    //   page: () => const PhotoPage(),
-    //   binding: PhotoBindings(),
-    // ),
   ];
 }
